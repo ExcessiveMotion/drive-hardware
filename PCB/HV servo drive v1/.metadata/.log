@@ -1,0 +1,33 @@
+!SESSION 2023-05-27 22:03:10.415 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-27 22:04:48.897
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-27 22:04:49.006
+!MESSAGE Log4j initialized with config file C:\Users\voids\Desktop\Projects\CLASS C PROJECTS\CNC Controller\HV servo drive v1\HV servo drive v1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-27 22:04:55.200
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-05-27 22:09:11.936
+!MESSAGE Indexed 'HV servo drive v1' (21 sources, 81 headers) in 5.41 sec: 4,473 declarations; 20,646 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.008%)
+!SESSION 2023-05-31 23:13:34.771 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-05-31 23:13:52.730
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-05-31 23:13:52.836
+!MESSAGE Log4j initialized with config file C:\Users\voids\Desktop\Projects\CLASS C PROJECTS\CNC Controller\HV servo drive v1\HV servo drive v1\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-31 23:14:07.972
+!MESSAGE Started RMI Server, listening on port 41337
