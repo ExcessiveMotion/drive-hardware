@@ -2909,7 +2909,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 134.62 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03422b82-bdad-426b-9bc0-6f235169829c)
     (property "Reference" "C61" (at 137.16 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2923,8 +2923,8 @@
     (property "Datasheet" "~" (at 134.62 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e42ca340-f343-4ed1-82c8-c5b222744da3))
-    (pin "2" (uuid 8240d114-9ee0-42e8-b060-2e28994b3d9a))
+    (pin "1" (uuid ec6c2cc1-a1d0-46ea-824a-a7fd9c006222))
+    (pin "2" (uuid 02111ef7-8c84-46ad-b63e-44ae908d93dd))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -2938,7 +2938,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 193.04 293.37 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0460dcf2-0259-4510-8cee-3f1b32b74ff8)
     (property "Reference" "R47" (at 189.23 290.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2952,8 +2952,8 @@
     (property "Datasheet" "~" (at 193.04 293.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bf65f2a-0967-4ffe-9fee-982b3aa94f30))
-    (pin "2" (uuid 926c3968-a508-4f9e-a285-70ad7fec28f4))
+    (pin "1" (uuid 2d2ebf3f-5964-48b5-876e-5c4374e52f9f))
+    (pin "2" (uuid 947f783e-7522-486e-9221-fbc1e0549400))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -2981,7 +2981,7 @@
     (property "Datasheet" "" (at 398.78 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d558198-3cf3-4d00-9a1b-e426fa9b904a))
+    (pin "1" (uuid 98ad9c1c-b4ba-409a-85a2-1fa0ffe088ed))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3009,10 +3009,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 208.28 276.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid de735bfc-ea3e-47ed-83a0-f5d1e03cd52e))
-    (pin "2" (uuid c618eb67-d5cc-4767-8ce6-cb451a5bd5a5))
-    (pin "3" (uuid 7d359ced-9e18-4755-853f-b8b35674d564))
-    (pin "4" (uuid 2e42562d-6ce3-4c08-87c8-a5ff9d649c1e))
+    (pin "1" (uuid 832f58c3-1a28-48c4-a91b-81afe869420f))
+    (pin "2" (uuid b524494d-9da4-4a65-8c2b-7a0dd48ec6f5))
+    (pin "3" (uuid 6d3bb878-ce79-4cd4-83f9-db7c74500b4d))
+    (pin "4" (uuid 361162d5-04b5-4d5c-b94d-2f19fc982c7a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3026,7 +3026,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 193.04 276.86 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07d054e1-22f6-4bd0-974c-9d596eb9f460)
     (property "Reference" "R36" (at 189.23 274.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3040,8 +3040,8 @@
     (property "Datasheet" "~" (at 193.04 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b228ed2-65f1-4308-915e-677e9e58c6af))
-    (pin "2" (uuid 9055f2c6-8383-47c9-b48b-784ef6b1854e))
+    (pin "1" (uuid bf40476b-de1d-4bfc-96cb-640df1cdb2e9))
+    (pin "2" (uuid d86a288e-62b9-40a2-a568-08665a52256a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3075,8 +3075,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 147.32 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 512066f5-ed8c-4dfe-a6cd-cfdf874ed00b))
-    (pin "2" (uuid 24c4c1f9-c17b-4ee3-b83f-11abc7f434db))
+    (pin "1" (uuid 34ed5eb1-a36e-4c87-9b19-362cea2cf624))
+    (pin "2" (uuid e09d2e8a-b0dd-4eb9-8ac4-122f6dc16e5b))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3104,7 +3104,7 @@
     (property "Datasheet" "" (at 210.82 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ddb47627-3c53-4327-954c-3c31bcf391d1))
+    (pin "1" (uuid 8ebf7ee5-e8fe-4462-b58d-420975c23da1))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3132,8 +3132,8 @@
     (property "Datasheet" "~" (at 139.7 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 735e7aed-01b7-42b6-926b-f1eb9ff2c0b0))
-    (pin "2" (uuid 4d0bf300-da95-4321-98b2-1dafe39c8e7a))
+    (pin "1" (uuid a4ede123-8d55-49a1-a4ba-ac6313a7ca28))
+    (pin "2" (uuid 6c26f81f-bf2b-4a07-8c5b-e554bc0acfab))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3161,8 +3161,8 @@
     (property "Datasheet" "~" (at 180.34 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0fdfedc-ed5c-4ac8-b1d5-b1cb53e93c38))
-    (pin "2" (uuid 3b33b199-936d-4f7e-ba5c-c84d3dfc9fe5))
+    (pin "1" (uuid 93c63395-b27c-4558-a454-57f54b0518c5))
+    (pin "2" (uuid e6509205-f5cd-47f2-aef7-8f925738af2c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3176,7 +3176,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 154.94 149.86 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e1b0756-900c-4038-90c2-cdbbe867aeff)
     (property "Reference" "D20" (at 157.48 148.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3190,8 +3190,8 @@
     (property "Datasheet" "~" (at 154.94 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02e9a7cd-6552-4fcf-9f1d-f79afcfb2763))
-    (pin "2" (uuid a60d388c-e7a4-4fe3-a84c-5c74ec25cd90))
+    (pin "1" (uuid c64a5f33-c690-49c0-9dc8-feb57f652e37))
+    (pin "2" (uuid a8e4bf2a-74fb-475c-9cfe-5ba237ebc619))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3219,8 +3219,8 @@
     (property "Datasheet" "~" (at 403.86 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3db2a471-6c52-4c9f-af5f-1a92305788af))
-    (pin "2" (uuid 21a6017f-2313-4cdf-8636-25fe334fcf6f))
+    (pin "1" (uuid 5b419c38-97b0-4038-abc8-6bc1339efbbb))
+    (pin "2" (uuid 7b7148db-33b1-44f1-a89d-4c403319fcab))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3234,7 +3234,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 407.67 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fd3aad5-88e3-43b6-a991-7d8caf084ae4)
     (property "Reference" "C77" (at 410.21 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3248,8 +3248,8 @@
     (property "Datasheet" "~" (at 407.67 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9fe1483b-2a54-4890-a47e-37cf08aba9cd))
-    (pin "2" (uuid 0737b9ee-b74d-46da-a075-3da374891d48))
+    (pin "1" (uuid 84a2814a-feff-4ced-9ef8-9cd892010e85))
+    (pin "2" (uuid 69152da4-3105-451e-975b-65cb6e3fc9b3))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3263,7 +3263,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 137.16 270.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1058e604-9409-41e8-b8e6-9f4eba2a5498)
     (property "Reference" "C56" (at 139.7 269.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3277,8 +3277,8 @@
     (property "Datasheet" "~" (at 137.16 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a10f292c-237b-446c-94e2-48429bd8053a))
-    (pin "2" (uuid 4ea3a1e2-b926-4d19-97af-33279da6b778))
+    (pin "1" (uuid be8966fc-27d7-481e-87df-ba4ecb3ec02c))
+    (pin "2" (uuid d1044769-8be9-4c67-8f29-b5055b95d5d4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3306,8 +3306,8 @@
     (property "Datasheet" "~" (at 546.1 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 353efea0-dd56-40f1-b5e8-c03a6b87b158))
-    (pin "2" (uuid 993e0b3f-9692-4c3c-817f-62427d139c27))
+    (pin "1" (uuid 83984948-6d7a-4555-98ea-23154c7d06f8))
+    (pin "2" (uuid 7011d062-0d21-4d6f-8425-a8844a992de8))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3321,7 +3321,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 124.46 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16d437d4-86a8-4812-9753-a2427fc0ac3b)
     (property "Reference" "C54" (at 127 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3335,8 +3335,8 @@
     (property "Datasheet" "~" (at 124.46 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e18d982f-8f4b-4b5c-8309-39b303576598))
-    (pin "2" (uuid 1654b47e-fbc6-4c85-84c3-8f08453ae491))
+    (pin "1" (uuid a69130aa-75e2-4229-a032-850f3a8d57ad))
+    (pin "2" (uuid e53a7d5e-0b0c-447a-b0b6-f3d44348573d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3364,8 +3364,8 @@
     (property "Datasheet" "~" (at 546.1 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d70e828-476b-45e3-a524-0c8f3f2ed86b))
-    (pin "2" (uuid 09c0bc44-3758-4344-adeb-0c1360bcf1ab))
+    (pin "1" (uuid 1c391654-af2e-48df-a26e-12cb86264ec5))
+    (pin "2" (uuid a20c4b48-4f2c-4a16-8bf1-1e8a7349dabc))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3393,7 +3393,7 @@
     (property "Datasheet" "" (at 81.28 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa6c688a-be36-4e82-811f-dfa86af9bf77))
+    (pin "1" (uuid 38803df9-41c2-4037-8ba6-080d7418988d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3421,7 +3421,7 @@
     (property "Datasheet" "" (at 210.82 298.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 670b195d-ba5b-4472-8a64-2cf95ab5212d))
+    (pin "1" (uuid a8ecfb50-0737-416c-a60c-01292a15b8e0))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3449,8 +3449,8 @@
     (property "Datasheet" "~" (at 262.89 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 968cb211-bf56-4b6c-9282-58f15119eff9))
-    (pin "2" (uuid 1ec28d46-1cdb-4781-bf88-5126a4443154))
+    (pin "1" (uuid c61218ba-d4a4-47ec-8217-34caacd90eb1))
+    (pin "2" (uuid 4226581b-8260-4f09-9aa7-bf9d3d23281b))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3478,7 +3478,7 @@
     (property "Datasheet" "" (at 83.82 326.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38063689-ed1f-4d7f-a737-87c571e51b19))
+    (pin "1" (uuid e67f7a59-ce8a-4e4a-a6e9-2290c419fa6d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3506,7 +3506,7 @@
     (property "Datasheet" "~" (at 330.2 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a1cdeef-4aca-45c8-89b2-7defc783c21d))
+    (pin "1" (uuid fde42364-bc33-4b62-9fae-823dc5bbab5d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3534,7 +3534,7 @@
     (property "Datasheet" "" (at 391.16 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c4446d13-bfea-4ea6-a81f-11b54a71b15c))
+    (pin "1" (uuid f5180d85-7fa2-435b-9ed2-98d74847fedb))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3562,14 +3562,14 @@
     (property "Datasheet" "AMC1306M25DWVR" (at 163.83 364.49 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid b8e1b130-3625-4232-9946-534c2f4ced20))
-    (pin "2" (uuid 5599ef83-55fe-4ee8-8987-c0d7f46b9daa))
-    (pin "3" (uuid fe729934-0554-44ce-b2e8-4da24a5e0648))
-    (pin "4" (uuid 4123707b-a0f9-4738-acd0-9e1244486520))
-    (pin "5" (uuid 511388ab-39f7-4093-81e1-23cfa64a4bdb))
-    (pin "6" (uuid 307a9dd0-c4ae-44fb-8cc3-5eea26b9f3ad))
-    (pin "7" (uuid cf079796-81d9-4766-83cd-483d254dee37))
-    (pin "8" (uuid 21a8c715-78ad-4329-8be9-1599e2967501))
+    (pin "1" (uuid 5a82a4d5-4bee-4073-bff1-91ef3a77a361))
+    (pin "2" (uuid 5a0dc0ae-6cf3-443a-a43f-a6f0ad5e3e50))
+    (pin "3" (uuid 895d6984-9bb6-4017-be5f-af9a8524426f))
+    (pin "4" (uuid a69ef2ab-e918-44ee-a836-eb88227330a4))
+    (pin "5" (uuid f46c40a9-1e27-4732-9ac7-3eac855fbc74))
+    (pin "6" (uuid e7b507e4-52e9-4234-8ad5-6d313e0f59c2))
+    (pin "7" (uuid 132ba485-3f9c-4a77-8b85-b2edec0bbe1b))
+    (pin "8" (uuid 24a0aa7e-955d-4203-bb77-fbbc1f3da0f2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3583,7 +3583,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 427.99 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29ccef1b-eabd-400b-bec2-53517730d85b)
     (property "Reference" "C85" (at 430.53 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3597,8 +3597,8 @@
     (property "Datasheet" "~" (at 427.99 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c47c20e-0559-4f8d-b1e2-7595e4f23654))
-    (pin "2" (uuid 10ab9dab-bed0-4209-acbd-d4a7526766cd))
+    (pin "1" (uuid 57d0b043-3fa2-41e5-a3b1-3c30e814e591))
+    (pin "2" (uuid 21ebdd10-3382-46e2-8fc4-02af05d42c11))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3612,7 +3612,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 118.11 241.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dc64edc-d617-421b-98c1-2e299d2cd323)
     (property "Reference" "C47" (at 120.65 240.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3626,8 +3626,8 @@
     (property "Datasheet" "~" (at 118.11 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9927b2ae-6d38-48b5-97f8-18616ce0cdb2))
-    (pin "2" (uuid eee28914-8a84-47d8-80fa-5a94b6317cf3))
+    (pin "1" (uuid c32c4889-8e1c-4b7f-8285-4ef62f5e3ee5))
+    (pin "2" (uuid f5d09f0d-3451-4b3e-856b-560d451b3064))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3641,7 +3641,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 154.94 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dd5748d-37f7-48dd-b90f-d4f78c5f0a62)
     (property "Reference" "R51" (at 157.48 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3655,8 +3655,8 @@
     (property "Datasheet" "~" (at 154.94 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a07da319-d01c-4b37-b07f-8787e7f63970))
-    (pin "2" (uuid cc3136e2-30e9-45c9-bb98-badf9685ec77))
+    (pin "1" (uuid cb055e0f-3ce3-43c1-a6f8-7d597469da3a))
+    (pin "2" (uuid 5e82f388-8d2c-4e66-871a-98f435c7c907))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3684,7 +3684,7 @@
     (property "Datasheet" "" (at 314.96 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fbe51a6-c64d-4470-86dd-520ba23a5f48))
+    (pin "1" (uuid 832f974a-5ccc-4431-ab6a-07abc8a47171))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3698,7 +3698,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 427.99 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e235602-048e-4d8b-a8d5-75fbfbb18208)
     (property "Reference" "C84" (at 430.53 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3712,8 +3712,8 @@
     (property "Datasheet" "~" (at 427.99 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdbe808a-a4be-4cb1-8747-a572bf89e5a0))
-    (pin "2" (uuid caf1b26d-5cf4-401f-865b-0b2d17788050))
+    (pin "1" (uuid 82624a2e-5597-4257-aa80-64d799094db6))
+    (pin "2" (uuid 5b4b1c82-f886-4918-afd8-ceff91ff21d2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3741,7 +3741,7 @@
     (property "Datasheet" "~" (at 64.77 318.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63826f82-90af-461f-9fde-16fe80822d2a))
+    (pin "1" (uuid 55740e8c-52e9-4dfb-84b2-d4e5f15ee75d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3769,7 +3769,7 @@
     (property "Datasheet" "" (at 208.28 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 908c775f-7d36-413f-b317-0292b53ae8e9))
+    (pin "1" (uuid b3e7c285-4289-4e71-9365-7e965e4c255e))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3797,8 +3797,8 @@
     (property "Datasheet" "~" (at 86.36 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61798da1-5080-4130-ae37-bff63cb3486e))
-    (pin "2" (uuid f7dd1fce-47b7-4078-94b9-adabd53101ba))
+    (pin "1" (uuid 2659bead-7bfd-4d42-845e-73252891d274))
+    (pin "2" (uuid 984da66f-e3d1-44d8-bb91-e30dab474e15))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3826,7 +3826,7 @@
     (property "Datasheet" "" (at 60.96 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8581a775-ff89-4362-a29d-14545f6a6d20))
+    (pin "1" (uuid c449bac1-d19d-4c63-bfcb-cea02ae1a508))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3854,10 +3854,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 205.74 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid fb704643-1871-443d-8a3c-5c40759f955e))
-    (pin "2" (uuid 8519cb8b-6d28-4c98-ba8a-963ff4231b8b))
-    (pin "3" (uuid 8de1c636-9f99-4015-bd02-23b650b9b6fb))
-    (pin "4" (uuid 501d5e04-0d8d-4c4f-8181-ab4493f94bda))
+    (pin "1" (uuid 7800e923-e694-43ce-968c-260a7ee5a222))
+    (pin "2" (uuid 680197e5-9851-41ed-9308-6ec51afa8218))
+    (pin "3" (uuid 427d9e53-c2b0-484e-bf4a-d6a472cacb42))
+    (pin "4" (uuid e0c1aa57-20af-4b8b-a2c5-0631b549ae5b))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3885,7 +3885,7 @@
     (property "Datasheet" "" (at 34.29 289.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2691eae2-7bbc-476d-8af7-7c4d01b996f5))
+    (pin "1" (uuid 2d658be1-3411-4e5e-af74-56d9d043063a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3913,7 +3913,7 @@
     (property "Datasheet" "" (at 83.82 311.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9fcb52c-3206-4a66-8687-7baccf5a64cc))
+    (pin "1" (uuid adfc0d2b-4b1e-4716-9252-a2683e68fb81))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3941,8 +3941,8 @@
     (property "Datasheet" "~" (at 377.19 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d9703d4-8cf9-4e66-933e-f18d714ceb1b))
-    (pin "2" (uuid 46e2f5ed-85d8-469b-87af-4faf39466f5c))
+    (pin "1" (uuid f81938d2-75ea-45fb-ad46-428698515e5b))
+    (pin "2" (uuid 5abcd86d-9d67-4c76-95fd-e0430bf72be2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3956,7 +3956,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 147.32 293.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b50519f-b028-432b-b752-a04ef3be4a6b)
     (property "Reference" "C60" (at 149.86 292.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3970,8 +3970,8 @@
     (property "Datasheet" "~" (at 147.32 293.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e365ae53-6ae5-4645-b961-20ecfaa2ea77))
-    (pin "2" (uuid 266db33a-e915-464e-95ef-d98a94353a2b))
+    (pin "1" (uuid c7cf635f-fb81-411f-ae2b-399c6e14fdfe))
+    (pin "2" (uuid 8842f9e4-2266-40ce-9d1e-e3ff10ef13e7))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -3999,8 +3999,8 @@
     (property "Datasheet" "~" (at 93.98 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 776a3f54-6334-48ea-afad-906d5a9462ee))
-    (pin "2" (uuid 2673194a-c4f1-478f-bd2f-a387682c5690))
+    (pin "1" (uuid 4ebac7f8-58b8-46a3-a8b6-74c84ac6d0de))
+    (pin "2" (uuid 782cb8f6-9cf9-4633-96f8-0771fdb64a31))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4028,8 +4028,8 @@
     (property "Datasheet" "~" (at 551.18 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8b9b322-faaf-421d-ab22-540d11cbbc1f))
-    (pin "2" (uuid 3916e6b0-d059-4718-a091-344cf1de9811))
+    (pin "1" (uuid dcf872e3-5009-4bab-8d30-f06c988fe0ba))
+    (pin "2" (uuid c82f7591-e4d8-4eac-a086-6f4fe1425b23))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4057,8 +4057,8 @@
     (property "Datasheet" "~" (at 168.91 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d8d53a4-8af4-4a72-aa11-d4a6e5f87a0e))
-    (pin "2" (uuid f00eb55a-f335-4dc1-bb6b-0a0851ec28c8))
+    (pin "1" (uuid 9882d5ad-c19a-4735-9b8b-3ce753ef6ff6))
+    (pin "2" (uuid 43b7baef-fc58-4153-afa7-b0af55821563))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4086,7 +4086,7 @@
     (property "Datasheet" "~" (at 44.45 318.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3012960-7044-4059-8c18-da0a6e50b816))
+    (pin "1" (uuid cd781810-8517-4ee7-8065-8f82045b841e))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4114,8 +4114,8 @@
     (property "Datasheet" "~" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9090bf37-7296-44e2-8dc9-0e23d616ccc0))
-    (pin "2" (uuid 6b078bbb-42ba-4acf-9c61-b884b7a90833))
+    (pin "1" (uuid 9df729f9-30ba-4727-a7ed-f4dee9608b16))
+    (pin "2" (uuid 19dbb063-0fe5-4c11-aea0-514093a75c96))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4143,8 +4143,8 @@
     (property "Datasheet" "~" (at 367.03 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65f7e3d8-e1ac-4c01-ac41-2093cdeb5ef2))
-    (pin "2" (uuid afcd68d6-2b5b-4cd0-922c-d4a76b456a74))
+    (pin "1" (uuid 8ad9c0a0-9e39-4795-929e-d1ec6efb65a5))
+    (pin "2" (uuid 3efc2575-0ce1-4695-b4b3-9601090a037e))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4172,8 +4172,8 @@
     (property "Datasheet" "~" (at 377.19 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ab3db9b-d561-4c97-99e5-e3f02846243c))
-    (pin "2" (uuid 60ccac1f-15d5-418f-8d28-1a80005a8887))
+    (pin "1" (uuid a8cc8077-2cf2-4c38-930a-67fc3424c88b))
+    (pin "2" (uuid 0c0ba747-09cc-4ba1-96d7-c4adde0e8463))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4201,8 +4201,8 @@
     (property "Datasheet" "~" (at 262.89 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9712627-77d9-4552-a124-13e0e34d3086))
-    (pin "2" (uuid 7e98235b-606d-497e-b87f-c27262719b8a))
+    (pin "1" (uuid 91ce03bc-1cba-44ab-9914-e27a4c24bbd3))
+    (pin "2" (uuid a42d97ca-2418-47c7-8e41-e9c0bedc83ff))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4230,7 +4230,7 @@
     (property "Datasheet" "" (at 115.57 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c463ce1-0011-4f7b-a0b7-3b775b203088))
+    (pin "1" (uuid a0ba61fe-4507-4b5c-9e10-0c019f38f6b0))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4244,7 +4244,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 473.71 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 443cf20a-fc39-446e-b508-5c0d3842bf23)
     (property "Reference" "R58" (at 469.9 86.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4258,8 +4258,8 @@
     (property "Datasheet" "~" (at 473.71 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1632768f-f9e3-4eb7-a326-4cf0d06e56cb))
-    (pin "2" (uuid ed7a135d-7869-4476-8e35-900ee3fba34f))
+    (pin "1" (uuid 9f15f328-504f-4dd0-b61a-2d9007f63ac8))
+    (pin "2" (uuid 68fd0229-94a6-40f0-9349-3672196679dc))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4287,8 +4287,8 @@
     (property "Datasheet" "~" (at 377.19 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0a91970-dc40-4ae3-9de0-e7d7504e7829))
-    (pin "2" (uuid 94922721-24d8-4c4d-8859-83568f98b962))
+    (pin "1" (uuid 93181910-a532-4b64-882e-e6249c7caf2b))
+    (pin "2" (uuid 196007c2-77cc-4192-a417-a349a5239b69))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4316,8 +4316,8 @@
     (property "Datasheet" "~" (at 182.88 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dd01ae4b-7fca-4bc9-b19d-b5e1314104cb))
-    (pin "2" (uuid 72e923e6-816e-4e1d-9c2b-1612c488b3a0))
+    (pin "1" (uuid 0fdd8d22-0013-42fb-a1b4-ae02f4350b91))
+    (pin "2" (uuid 6aa44c03-0bd1-4e59-9716-37a400cfa5e9))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4331,7 +4331,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 417.83 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bc5b3cb-13ce-428f-b74a-3c0794d1d6bf)
     (property "Reference" "C82" (at 420.37 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4345,8 +4345,8 @@
     (property "Datasheet" "~" (at 417.83 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24ba8de0-a1f2-46d7-be5a-e5f14c65276c))
-    (pin "2" (uuid 30dbbdbc-8e6f-4b31-8dcb-15b5e05886ba))
+    (pin "1" (uuid 199e0bdf-11a8-49e6-aa71-ea4b46982e17))
+    (pin "2" (uuid b3df5b77-3965-4c80-86fa-6d3f902f4071))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4374,7 +4374,7 @@
     (property "Datasheet" "" (at 31.75 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81b76831-ae8d-4f56-8122-9ba74cbf40ee))
+    (pin "1" (uuid ded99bf9-2d39-4fb9-ac9a-fef2300c82fa))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4402,7 +4402,7 @@
     (property "Datasheet" "" (at 314.96 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d0808a2-f230-4731-a985-f7702cd6432a))
+    (pin "1" (uuid 9c557654-5dcf-49a2-8482-e79a9c623853))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4430,8 +4430,8 @@
     (property "Datasheet" "~" (at 93.98 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 385a542f-e610-49df-a7bf-33df2dcaf410))
-    (pin "2" (uuid 301efb42-3122-49ec-bb20-c0a4524b3f51))
+    (pin "1" (uuid 5e583c6d-0ddb-429f-bca4-19be9af73431))
+    (pin "2" (uuid 9f0ec4c1-17da-4405-acff-a87b65657a45))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4459,8 +4459,8 @@
     (property "Datasheet" "~" (at 267.97 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8199a8e-bd0f-4796-a10a-670475df880e))
-    (pin "2" (uuid 0b41b3c1-f50e-4088-aa25-c7e584edf8b7))
+    (pin "1" (uuid ea59ef87-3b8e-4e3b-ae20-594ab097eed1))
+    (pin "2" (uuid c61db8c8-e72d-4636-968a-06f759720939))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4474,7 +4474,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 134.62 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5476b8dd-d5cf-435a-816e-445e36e32fb0)
     (property "Reference" "C55" (at 137.16 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4488,8 +4488,8 @@
     (property "Datasheet" "~" (at 134.62 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 780b0efa-52bc-43c0-aada-ca649f1ebc4d))
-    (pin "2" (uuid af4925b9-d5b9-4427-8902-a491b1d9f1e0))
+    (pin "1" (uuid 9daa1478-7521-4c7a-900d-63cbef3a569e))
+    (pin "2" (uuid 0dd5f51e-34ed-479c-8463-1b4fca59a2e3))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4517,8 +4517,8 @@
     (property "Datasheet" "~" (at 265.43 347.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 987d35d7-4e04-4d3a-b877-c84103e7305b))
-    (pin "2" (uuid f9251a0d-01c3-4a3a-ac7b-9625fce8617c))
+    (pin "1" (uuid e3e4d6ce-e0c7-4d6e-a910-87b033fbfd63))
+    (pin "2" (uuid f307e3e1-2784-47de-8e7c-18bfc8f3e90c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4552,8 +4552,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 378.46 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05aea1d0-7983-40a2-bec1-adf83d4dd7a2))
-    (pin "2" (uuid 6dac09dd-ae73-4012-849a-08ac4443f600))
+    (pin "1" (uuid 79231724-8032-498c-b8ab-6c11e077bce7))
+    (pin "2" (uuid b53f4648-5c2a-407c-af06-19b33f3d5c15))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4567,7 +4567,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 129.54 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5915d75b-a8dd-48cd-aadd-43c52d407e72)
     (property "Reference" "TP15" (at 129.54 165.862 0)
       (effects (font (size 1.27 1.27)))
@@ -4581,7 +4581,7 @@
     (property "Datasheet" "~" (at 134.62 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4062ee3-7f97-4963-afcd-3e0fa5e7ddb3))
+    (pin "1" (uuid 287565fd-7dbf-4ff6-81e2-5953f057d91b))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4595,7 +4595,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 190.5 87.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a00115e-7f33-43b0-b493-df774dadedac)
     (property "Reference" "R54" (at 186.69 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4609,8 +4609,8 @@
     (property "Datasheet" "~" (at 190.5 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64f4deff-7827-4c83-afce-505c653d7e7d))
-    (pin "2" (uuid 8e0ba2a3-6f35-42a4-9e80-0f58bb8cc414))
+    (pin "1" (uuid 1544f329-a71e-4bf9-a825-190a486e8237))
+    (pin "2" (uuid 78fbc651-6163-4796-a53c-b6bc4241bc4d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4624,7 +4624,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 137.16 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b0dc578-1f5d-409d-b8a0-a0695df5798e)
     (property "Reference" "C57" (at 139.7 276.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4638,8 +4638,8 @@
     (property "Datasheet" "~" (at 137.16 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2427cd57-2c02-45b6-aa7c-db96915c02fa))
-    (pin "2" (uuid 3036c676-5434-4e13-a7cb-d534de393922))
+    (pin "1" (uuid 9ca7ce5a-c4d2-47a6-9090-b31f9095da0c))
+    (pin "2" (uuid 6f9e8e0c-a9d2-4a4c-9c0e-ce1bdb85b4e0))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4667,7 +4667,7 @@
     (property "Datasheet" "" (at 110.49 354.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11867c29-5a6f-4aa7-8399-a456334a3ffb))
+    (pin "1" (uuid b516d967-1f15-4ba0-89e3-fa30ebeb5c8a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4695,8 +4695,8 @@
     (property "Datasheet" "~" (at 83.82 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b93da53-a85a-4816-afe2-cc87f92c15ea))
-    (pin "2" (uuid fe77d245-cb9d-4b6e-bedc-2364c5c4938a))
+    (pin "1" (uuid 26023e55-67ae-4353-8db4-a05f40da120c))
+    (pin "2" (uuid e8d07e23-60cc-4d78-8696-a693a9117821))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4724,14 +4724,14 @@
     (property "Datasheet" "AMC1306M25DWVR" (at 444.5 176.53 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 6fc4ec73-9aaf-44f0-963d-8ed457566f98))
-    (pin "2" (uuid b07f6d08-a536-47bd-bd56-e348b80a8d94))
-    (pin "3" (uuid f22482f8-bca4-4344-9148-64457d50d42f))
-    (pin "4" (uuid 5c43a12e-bc76-4cf6-8253-8ef6b4917650))
-    (pin "5" (uuid 1a9dd48d-449d-487f-b7b4-bd5c00e6ce1f))
-    (pin "6" (uuid e55701d1-5e8d-4688-8e35-68a2f565e331))
-    (pin "7" (uuid 03b60c7d-6805-4c40-909c-02b6f029874a))
-    (pin "8" (uuid 27fb2d02-6406-482f-8a78-61f530091ae3))
+    (pin "1" (uuid c9a8e4c0-d682-4ce2-971a-2c5aa4b9262f))
+    (pin "2" (uuid 4412aec2-ab51-495a-a8a6-2f54a0d11eb9))
+    (pin "3" (uuid 2f2e6fbe-0535-4fa9-a1b0-f26b7000ce08))
+    (pin "4" (uuid 95e79aed-297c-4770-99b1-b0c7f132ff02))
+    (pin "5" (uuid 4fdc15c1-a1f0-4454-a7d4-5e649a2de639))
+    (pin "6" (uuid faf69f87-eda4-4a54-8ae3-066fed7e06a6))
+    (pin "7" (uuid a8277951-ab4c-4390-aab4-33e0efd44d44))
+    (pin "8" (uuid 95a829c0-fa43-4cff-a501-2bf461c6ed81))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4759,7 +4759,7 @@
     (property "Datasheet" "" (at 110.49 340.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dcf8c0db-7f15-46f8-a12f-e73a165ea102))
+    (pin "1" (uuid 0a348ab3-988a-4859-8f16-327ee430a36c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4787,7 +4787,7 @@
     (property "Datasheet" "~" (at 63.5 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7f3dc5f-c411-424d-a827-66471394f732))
+    (pin "1" (uuid 4653c94d-70e4-45f6-bee6-38ab333916f1))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4815,8 +4815,8 @@
     (property "Datasheet" "~" (at 257.81 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d66ad235-3619-4839-b841-e30b4b6b2002))
-    (pin "2" (uuid f72d87c1-3ce7-43b6-8ffe-e17b29a101e8))
+    (pin "1" (uuid d508ae76-c04c-4ab2-a5e1-8961069a8bad))
+    (pin "2" (uuid 848b5996-a117-469d-93c4-57366f597283))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4844,8 +4844,8 @@
     (property "Datasheet" "~" (at 137.16 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1c87080d-e3e1-49a1-969c-665f39e292cc))
-    (pin "2" (uuid f7f7ea49-a5ba-44ca-b6c5-32d28dadf9b3))
+    (pin "1" (uuid 88fe45d4-2a33-4bf0-a86a-055b53d85d3a))
+    (pin "2" (uuid b3c092b9-2de6-4962-8ad3-531afce92e2a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4873,7 +4873,7 @@
     (property "Datasheet" "" (at 83.82 307.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de9aa6c0-2ddd-4370-bb1b-14dba5f556e9))
+    (pin "1" (uuid 5dd6b57b-1a10-4b21-a2ae-f9718334581d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4901,7 +4901,7 @@
     (property "Datasheet" "" (at 391.16 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c39f72cb-574b-4688-b5ca-306435640990))
+    (pin "1" (uuid 9ad088b2-4951-426b-b31a-56f91f389a71))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4929,7 +4929,7 @@
     (property "Datasheet" "" (at 60.96 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce84222f-e112-498c-89b8-5ae3a0aa324e))
+    (pin "1" (uuid 73f08ed7-4246-49f6-909f-76fde2ed63ff))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4943,7 +4943,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 58.42 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72a0505a-33f3-4bf1-9bc1-dac2698aa470)
     (property "Reference" "C37" (at 60.96 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4957,8 +4957,8 @@
     (property "Datasheet" "~" (at 58.42 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c21cfb1a-be85-41d9-beb8-b501e4d926cc))
-    (pin "2" (uuid a1d3ba43-ff4d-46af-9f47-bcc6d54f9b86))
+    (pin "1" (uuid 004de2cc-d9c6-4c68-afa0-53cc4a9aa902))
+    (pin "2" (uuid e411620d-6e13-4b9b-bfdb-b235d18d780f))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -4972,7 +4972,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 407.67 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72cb8bfd-f404-45a7-90fe-de483c66ae72)
     (property "Reference" "C78" (at 410.21 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4986,8 +4986,8 @@
     (property "Datasheet" "~" (at 407.67 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a056f001-7b88-4ed8-a174-c82a3fec9f25))
-    (pin "2" (uuid 9bdf0180-3209-447d-b263-41b82a1cc1ce))
+    (pin "1" (uuid 716df4ed-9870-49d8-86c4-fa43d92dc6b5))
+    (pin "2" (uuid 851cf02e-ec74-47c7-94a2-c1b35548045f))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5015,7 +5015,7 @@
     (property "Datasheet" "" (at 208.28 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f48b69db-a339-44fc-b9e4-9413de344af6))
+    (pin "1" (uuid 8bce17c7-bf77-44b0-83ba-b7fed5bc9f1a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5029,7 +5029,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 417.83 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7407a6a9-1642-4298-bbfd-f88fbde71787)
     (property "Reference" "C81" (at 420.37 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5043,8 +5043,8 @@
     (property "Datasheet" "~" (at 417.83 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d815137a-7a7e-42d6-9194-8d23b8399af9))
-    (pin "2" (uuid 73bfa885-3c96-4518-b1a0-2fd800d7a705))
+    (pin "1" (uuid 9355c0a1-d60b-494f-a9f5-964e5277319c))
+    (pin "2" (uuid f93f3dfa-bc6b-46d1-a471-bd74ed617d7d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5058,7 +5058,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 157.48 339.09 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76bd7b94-c802-48a4-a25a-da9cdbc7be10)
     (property "Reference" "D19" (at 160.02 337.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5072,8 +5072,8 @@
     (property "Datasheet" "~" (at 157.48 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f7eea9d-1f69-476d-beae-e665ba54d43d))
-    (pin "2" (uuid e320f5ae-7474-4fad-aceb-371d263aeede))
+    (pin "1" (uuid 7e0fff11-696d-4486-b99a-e998ebdbaf33))
+    (pin "2" (uuid ef27c51e-c4ca-4a82-a8c7-0720a543919a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5087,7 +5087,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 132.08 361.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d0c8954-1df4-48a7-a654-0220dbefa090)
     (property "Reference" "TP9" (at 132.08 355.092 0)
       (effects (font (size 1.27 1.27)))
@@ -5101,7 +5101,7 @@
     (property "Datasheet" "~" (at 137.16 361.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e541c905-3144-4e95-b5ae-b127d1fbb424))
+    (pin "1" (uuid 8eddbabc-d7f8-4668-b33b-b7c1ac7eb8d4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5129,8 +5129,8 @@
     (property "Datasheet" "~" (at 420.37 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ab7820b-62fd-478a-8d46-3736bd762db5))
-    (pin "2" (uuid fa808426-2ed7-4de5-abbf-14937ee9d29f))
+    (pin "1" (uuid 4f411ee3-e29b-4c31-a81e-9b094a0e7443))
+    (pin "2" (uuid 1ff08b92-5cec-437a-ae61-e3409ca541a9))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5144,7 +5144,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 341.63 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eaab827-d4de-436a-ba5d-c8fa7212ae12)
     (property "Reference" "C70" (at 344.17 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5158,8 +5158,8 @@
     (property "Datasheet" "~" (at 341.63 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aac04184-3eec-4d71-aba2-fa1b224a652a))
-    (pin "2" (uuid 17c621ba-ef8b-402a-be9f-a3967e67db71))
+    (pin "1" (uuid 4177ca89-c24f-459a-ab9c-940cd915e9c8))
+    (pin "2" (uuid dcfae412-0dcd-4a67-a2af-40941612bfa8))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5187,8 +5187,8 @@
     (property "Datasheet" "~" (at 463.55 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4b11abb-1193-4149-a6c2-0628b91df552))
-    (pin "2" (uuid d8b5ba84-fe70-4a49-a81f-b2cdeebd93cc))
+    (pin "1" (uuid e467e5fa-f8d8-4697-9c86-cbc1316b336f))
+    (pin "2" (uuid c67656d8-8b72-4333-8ff9-2d46d7f171b2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5202,7 +5202,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 473.71 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84524f2e-26fa-4527-9e22-6245eb9ef695)
     (property "Reference" "R59" (at 469.9 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5216,8 +5216,8 @@
     (property "Datasheet" "~" (at 473.71 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9eeeb5d0-c477-4997-bcf8-d2364a45fec1))
-    (pin "2" (uuid e93a7785-dc8b-418b-bd69-29badc54dacd))
+    (pin "1" (uuid a3c1a1fe-bc0a-43e0-bc50-4312ad623c56))
+    (pin "2" (uuid ca2e8c6f-20fc-47a3-9af2-87887049720c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5245,7 +5245,7 @@
     (property "Datasheet" "" (at 364.49 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8fd77bb-349a-4eff-9e7c-fe487d9415fa))
+    (pin "1" (uuid 4d234173-e500-4c29-99cb-53d7b3f0e4fe))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5273,10 +5273,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 488.95 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid f23ca286-236a-47a9-926d-d89cd9969860))
-    (pin "2" (uuid d1e17458-9f68-4236-bd31-9a1373cae4b1))
-    (pin "3" (uuid 2b297e50-2182-4068-80fb-773cf33ed385))
-    (pin "4" (uuid 202c43fc-0e3f-4a26-8ab9-92eae7e197e8))
+    (pin "1" (uuid 21c2c485-ddf6-4eda-ac0f-ad9cf65e5791))
+    (pin "2" (uuid 46d95559-8ece-495c-ba88-084c8d0fbca0))
+    (pin "3" (uuid af61e7d7-7cde-4675-bca7-ff57c4eee2cf))
+    (pin "4" (uuid 07e009ef-33d6-4ceb-98ba-c426ac8c1551))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5290,7 +5290,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 157.48 331.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87f3afdb-8582-4903-9a21-906bf02c5f9c)
     (property "Reference" "R35" (at 160.02 327.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5304,8 +5304,8 @@
     (property "Datasheet" "~" (at 157.48 331.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9288a12b-ef46-48f0-9ef2-2ecd152f1dc4))
-    (pin "2" (uuid 54035efd-63e1-495c-b6c1-2c013d086371))
+    (pin "1" (uuid 8289798c-9e4f-4b08-8166-8895554f7464))
+    (pin "2" (uuid b913699f-99e6-473c-8d59-7816f62ccb98))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5319,7 +5319,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 412.75 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88bd6484-9b64-4ef7-b5ab-cbb317d6ff25)
     (property "Reference" "TP10" (at 412.75 167.132 0)
       (effects (font (size 1.27 1.27)))
@@ -5333,7 +5333,7 @@
     (property "Datasheet" "~" (at 417.83 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7ec7097-6830-4b6f-8d64-41222d080a24))
+    (pin "1" (uuid e1355294-ee28-4c10-82d9-67c848b5afcd))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5367,8 +5367,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 430.53 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd4ad954-d55f-44cd-923d-1eadfe1e00a7))
-    (pin "2" (uuid 81ef927a-23cd-4cf5-bb7b-fbe7ab265e1c))
+    (pin "1" (uuid 9edd390c-88cc-4cb5-b1c1-635bde6eba31))
+    (pin "2" (uuid 6d2db40d-c360-4d69-921a-4c6502dca9dd))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5396,8 +5396,8 @@
     (property "Datasheet" "~" (at 41.91 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 72779fe4-1b84-4bdd-8673-751d671777f0))
-    (pin "2" (uuid 3309ad3b-70ac-4fdb-9ede-f5ef997d8298))
+    (pin "1" (uuid 4485638e-dce5-4a19-aeb4-5df2e941137c))
+    (pin "2" (uuid 75736491-5188-45f5-8209-c9d05fc16930))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5411,7 +5411,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 147.32 300.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ecf1187-9519-4115-b9a6-8169a56fa7ec)
     (property "Reference" "C63" (at 149.86 299.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5425,8 +5425,8 @@
     (property "Datasheet" "~" (at 147.32 300.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5c44aee-3667-45f4-9cf8-a04ff1cc5100))
-    (pin "2" (uuid 93f19493-7ef4-476f-9aa7-13fd54eb99b4))
+    (pin "1" (uuid 020a78be-e58f-4eca-9897-dfe863ddcb02))
+    (pin "2" (uuid b6510bf0-ec29-4118-beee-5c88ba1741f0))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5440,7 +5440,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 144.78 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90ed088f-1c17-4241-b0c5-3266d362285c)
     (property "Reference" "C76" (at 147.32 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5454,8 +5454,8 @@
     (property "Datasheet" "~" (at 144.78 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61132a0c-508f-47b7-911b-b8e782da14ef))
-    (pin "2" (uuid b696aeea-9c1c-4f9d-9b20-763f39137d48))
+    (pin "1" (uuid 037ec5ca-4edd-42e6-953d-956aaaab245b))
+    (pin "2" (uuid f721442c-0487-442b-9887-ac2cbb238936))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5489,8 +5489,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 95.25 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05f96939-b3e4-4291-81ec-9fdcc1af3c7a))
-    (pin "2" (uuid 3d364772-c739-4d79-868f-c5f5bf2a1a66))
+    (pin "1" (uuid b6718991-48f1-4dc4-8246-fb581392b4db))
+    (pin "2" (uuid 115c9eb5-5ff5-4460-a3a2-b0e80412e78a))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5518,7 +5518,7 @@
     (property "Datasheet" "" (at 364.49 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41d9b7a3-9ab6-4b54-bc0b-62c9357869d0))
+    (pin "1" (uuid 5e2db5e4-5bc1-494c-89f2-853659f4d3e1))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5532,7 +5532,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 190.5 104.14 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a9d24f9-5e18-4cf7-9312-fd3424f7aff9)
     (property "Reference" "R55" (at 186.69 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5546,8 +5546,8 @@
     (property "Datasheet" "~" (at 190.5 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c30d986-79a5-4064-bb37-58aa18a6f9f0))
-    (pin "2" (uuid 43d866ee-9b18-4a96-8819-71fb76983f02))
+    (pin "1" (uuid 6ce1e7cf-6187-4861-8e80-486cc027b678))
+    (pin "2" (uuid a8bf90af-646b-4179-8202-bb4cf6c13e71))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5575,8 +5575,8 @@
     (property "Datasheet" "~" (at 120.65 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 031064ee-4941-4265-a313-70bdc273c289))
-    (pin "2" (uuid 85c7313f-6fbc-479c-9c8b-897a6eded82f))
+    (pin "1" (uuid 50d3bedb-c623-4ae3-98eb-91af3fb4022f))
+    (pin "2" (uuid 3432ee8d-8431-47e7-aac2-d2e60a6ec356))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5604,7 +5604,7 @@
     (property "Datasheet" "" (at 107.95 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62c256ba-7c9e-46e4-9f45-b472ed5ba7dd))
+    (pin "1" (uuid ccb90bc5-4471-4c34-ae64-1efa26d59dd8))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5618,7 +5618,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 115.57 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c7f7f21-ccac-4f6a-999f-2283aeb9b5ad)
     (property "Reference" "C40" (at 118.11 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5632,8 +5632,8 @@
     (property "Datasheet" "~" (at 115.57 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b18d5427-6deb-420f-b243-7419dbd68fc1))
-    (pin "2" (uuid c5b78ae9-2f09-414e-8486-4bd5d5f36edd))
+    (pin "1" (uuid f7f9f193-97ba-4d09-a2f3-b1e609ebed24))
+    (pin "2" (uuid 78c5dec8-2cd3-4637-904e-4742cd4289bf))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5647,7 +5647,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 438.15 151.13 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f65f422-cea8-47d3-abf8-299785eabdcc)
     (property "Reference" "D24" (at 440.69 149.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5661,8 +5661,8 @@
     (property "Datasheet" "~" (at 438.15 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67c91b02-1357-493b-a164-607e0f9bff6a))
-    (pin "2" (uuid b94e7ae1-6f66-4009-8866-971fc76fac11))
+    (pin "1" (uuid 79cd0ba3-693e-4af8-93f6-2a013d241b02))
+    (pin "2" (uuid 5c4e6c98-3dae-45dd-8fb6-99882d7638e3))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5690,7 +5690,7 @@
     (property "Datasheet" "" (at 34.29 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e6ac159-4e53-47af-acfa-6b50b227669b))
+    (pin "1" (uuid 9771de85-295c-4ec7-94e2-a9be5f9f3a00))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5718,8 +5718,8 @@
     (property "Datasheet" "~" (at 265.43 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7075914-0505-4962-a926-e5a699a759ed))
-    (pin "2" (uuid 5e6fec78-1905-40f5-8f63-8ce8cb18506f))
+    (pin "1" (uuid 8d1bc849-edef-442a-8d68-5b8a5e58405f))
+    (pin "2" (uuid c18ad55e-c0e3-4d0d-ad2e-b4d6a9f7fbfb))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5733,7 +5733,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 417.83 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a12e0e77-66f8-428e-93d5-d059cf4da63e)
     (property "Reference" "C83" (at 420.37 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5747,8 +5747,8 @@
     (property "Datasheet" "~" (at 417.83 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9378a00b-197e-4029-a3a2-a19513e67f1f))
-    (pin "2" (uuid d787d69d-8803-4dea-9c62-998312053076))
+    (pin "1" (uuid f394ddb4-a00e-4d67-814f-1e374824209e))
+    (pin "2" (uuid f7433aa7-a256-4b4f-9d40-e3f5cd03760e))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5776,8 +5776,8 @@
     (property "Datasheet" "~" (at 96.52 326.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4ba404b-4dac-4ebe-9115-0a45153b48a5))
-    (pin "2" (uuid b5ab088d-82ad-44bf-9fae-7d2a0cead4c0))
+    (pin "1" (uuid d23a3d5c-1325-480a-bba5-32143c1f3273))
+    (pin "2" (uuid 0483659c-ac0d-4c8f-94e1-c066cd94b3fa))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5805,7 +5805,7 @@
     (property "Datasheet" "" (at 364.49 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b1581fc-db0a-4a0c-af6f-71b8cba2fc23))
+    (pin "1" (uuid 992c99f8-0a91-4c17-9ff5-8744eaac3fa2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5833,7 +5833,7 @@
     (property "Datasheet" "" (at 118.11 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e7169e7-f1f3-47fb-a693-2bdeaa2a261a))
+    (pin "1" (uuid aeb12370-2d12-4831-8960-956b854fa7d3))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5847,7 +5847,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 398.78 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8dfc63a-cdcf-41d8-b576-6b473f88be6e)
     (property "Reference" "C71" (at 401.32 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5861,8 +5861,8 @@
     (property "Datasheet" "~" (at 398.78 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6aa11c75-8939-45e3-9114-5bd0edecc473))
-    (pin "2" (uuid 8f53aff5-dcac-4680-bc43-be2dab57d2ac))
+    (pin "1" (uuid 7cb1526c-598c-47fd-8995-eafcd898b7c0))
+    (pin "2" (uuid 76cdcca1-cbb7-44c5-8b55-f5dd8a87d7bb))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5890,8 +5890,8 @@
     (property "Datasheet" "~" (at 270.51 336.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9e25182-4653-48c8-887b-2e2994740e64))
-    (pin "2" (uuid 936c222f-1ec5-4de2-bada-9aeb5d439adf))
+    (pin "1" (uuid 79a18ebb-d83f-46ee-ad47-1fb1b9e44b49))
+    (pin "2" (uuid b4ddebde-ab2d-47f5-9f2e-600e48fc0185))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5919,8 +5919,8 @@
     (property "Datasheet" "~" (at 93.98 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a32ff8a3-a9f7-4d95-a315-1626f7ad0532))
-    (pin "2" (uuid 83ac7ef6-3094-4e44-a0e8-d8845e33c535))
+    (pin "1" (uuid ad4ec0ea-2bbe-454b-99dd-beedc38278cd))
+    (pin "2" (uuid d56a2e02-fe72-449d-a044-182d3de8c813))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5934,7 +5934,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 137.16 293.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6ef2a7e-f096-4888-aafe-ed86c4224c8e)
     (property "Reference" "C58" (at 139.7 292.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5948,8 +5948,8 @@
     (property "Datasheet" "~" (at 137.16 293.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0daa2e86-63b3-4b40-9fd7-be4a1446cd2f))
-    (pin "2" (uuid a52cb888-df0a-4437-9587-3ba4171d2774))
+    (pin "1" (uuid a611ee29-71dc-48cf-ab87-1f9290b3eb9a))
+    (pin "2" (uuid a02f3dc1-f6c0-4b6e-9ca0-ddd72727dbe4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5963,7 +5963,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 127 278.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8e746f1-956f-4193-8290-87cd3617fd7d)
     (property "Reference" "C53" (at 129.54 276.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5977,8 +5977,8 @@
     (property "Datasheet" "~" (at 127 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a5b569db-1230-471a-8907-2fec181c51df))
-    (pin "2" (uuid f9817760-eb25-435d-839a-6b6b6f7c0e8b))
+    (pin "1" (uuid b616070b-d8aa-4023-bee6-51b4628cb92e))
+    (pin "2" (uuid 651cae7b-19d1-482b-84ab-ab059045b8e3))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -5992,7 +5992,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 134.62 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbeba884-e671-4e8a-84c4-1094414efea1)
     (property "Reference" "C74" (at 137.16 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6006,8 +6006,8 @@
     (property "Datasheet" "~" (at 134.62 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51985a01-400a-43b8-bd10-4c3ebc2c758d))
-    (pin "2" (uuid 6c22bf6f-4494-4a1d-bd5a-fa77290741c7))
+    (pin "1" (uuid 75b01bf4-9c43-45d0-8d2f-a6f7a32d3116))
+    (pin "2" (uuid 88d1fb16-4bc5-4dc2-99f0-5ff582674fb8))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6035,22 +6035,22 @@
     (property "Datasheet" "2EDF9275FXUMA1" (at 64.77 276.86 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 9e424b76-e8f7-4f71-bbc9-a58ba74008bd))
-    (pin "10" (uuid b811e98b-1eee-485d-a1ad-c20db05f0369))
-    (pin "11" (uuid 00b1d79e-f3e7-410a-8edb-a368c19941ea))
-    (pin "12" (uuid ffcc2522-a09a-4ce9-82f7-01d3b863a2a1))
-    (pin "13" (uuid 6408cdde-aa44-4d53-9525-19e9eb79fe1e))
-    (pin "14" (uuid 4ff9d7e5-49aa-400d-a2a3-b1230f1a4a7c))
-    (pin "15" (uuid 700ae1f3-1523-4053-92df-d70a373772e3))
-    (pin "16" (uuid addc185a-5949-4a0a-abd9-0522c01f465a))
-    (pin "2" (uuid 0f8b80b2-8e92-498c-853a-3092e3428ad7))
-    (pin "3" (uuid b2815760-25e1-4bdd-8b79-4cc4f214a6a1))
-    (pin "4" (uuid bafb5fa5-d2f0-439f-9927-b55a78be13fb))
-    (pin "5" (uuid fe9bc876-1663-45ba-9619-4756fe2432a2))
-    (pin "6" (uuid 08a86455-6567-4f99-94d1-f9982a2c9e56))
-    (pin "7" (uuid 154188fc-4a1b-4e3f-bb58-cf199dfe72cb))
-    (pin "8" (uuid 4610a8ed-0fe3-41fa-80eb-d3c557cc60be))
-    (pin "9" (uuid 5a92206b-9d12-4b5d-b075-c74615d9b99b))
+    (pin "1" (uuid f49e94ef-9b2e-485a-afab-2b3d2e3141c9))
+    (pin "10" (uuid ae8e1ccf-bce7-4344-ae41-61406b83a388))
+    (pin "11" (uuid c840d94c-9410-4a1c-af76-ec1f33a25f22))
+    (pin "12" (uuid 45d514bb-9859-4c1c-974e-69d01f25677e))
+    (pin "13" (uuid 683515cd-154a-43ca-9250-436016cbdc8b))
+    (pin "14" (uuid 5f562159-86e6-42d2-b58b-cf784de20b95))
+    (pin "15" (uuid 397c7ec3-de10-4e34-9ce8-c4d29631ebc6))
+    (pin "16" (uuid eeff34df-f40c-469b-bc12-e5efc11f7f96))
+    (pin "2" (uuid f7375ed7-f312-4763-b2c5-4411460f74e6))
+    (pin "3" (uuid d9ffae18-d10c-4552-ba52-690d54294e21))
+    (pin "4" (uuid 27418ac5-4483-4f86-bb95-b271d23448c2))
+    (pin "5" (uuid b77f45c6-0a4b-4713-9a14-a28debaf2d51))
+    (pin "6" (uuid f9749fa0-f81a-4d9b-badb-82cdea9f76f7))
+    (pin "7" (uuid 1fa7c325-850e-420f-9d4c-ff3b19032c2f))
+    (pin "8" (uuid 2673cabf-ab53-4767-825b-95e3cee62820))
+    (pin "9" (uuid 5d705148-0315-4a6b-87c8-11d0f6a65bbf))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6078,22 +6078,22 @@
     (property "Datasheet" "2EDF9275FXUMA1" (at 345.44 88.9 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid f5ba45f3-8220-4f89-beee-db59629b3142))
-    (pin "10" (uuid 06fb2e4e-f5c0-46ad-9441-aa86c9e7a483))
-    (pin "11" (uuid b53ef801-5429-438c-a2a7-8ed3255fbd95))
-    (pin "12" (uuid 81989db8-d804-4c8c-8423-7290c1a040f9))
-    (pin "13" (uuid abd8a7a7-98b3-4e76-b17c-2155063c6ec0))
-    (pin "14" (uuid e3a3fdc0-97c3-4a59-bfe1-a4497eae3965))
-    (pin "15" (uuid 684176da-28a4-48f8-910f-6e73b9102f9a))
-    (pin "16" (uuid ef2e8961-768f-4e33-a633-398a4c52819c))
-    (pin "2" (uuid edbbc747-b56a-4dc1-8714-c0e41b386e3d))
-    (pin "3" (uuid 2d3eecb8-21af-4ec5-abbc-b92761401298))
-    (pin "4" (uuid e1d6ea9b-8435-4498-ba4e-1f16c8d1056d))
-    (pin "5" (uuid 4487e367-748f-4959-839c-70b8d0e3a05e))
-    (pin "6" (uuid 33fcf408-ba02-44dc-9cae-1f40c0f5fe62))
-    (pin "7" (uuid 0a9ae793-c85a-446a-ba93-06e22be3bf6d))
-    (pin "8" (uuid f0eb20be-79a7-4e25-8f22-1a89c4bbcfa9))
-    (pin "9" (uuid 4110630f-395f-475a-9fa1-6e3108732768))
+    (pin "1" (uuid 847a3830-8381-4a01-ad4b-14673b8ce24f))
+    (pin "10" (uuid a5ce5a36-3403-41dd-9a0a-457bfbd6772b))
+    (pin "11" (uuid 72aa7f17-925d-4c76-a001-11c32de46d0d))
+    (pin "12" (uuid 5cc92f0e-8301-439e-b57c-587bdef7de73))
+    (pin "13" (uuid 02c62c46-0a71-4b65-9747-3201568bf65c))
+    (pin "14" (uuid f2327183-f3c8-4186-8496-d4540e451a93))
+    (pin "15" (uuid 61fe17bc-58fe-4e0c-8b52-c6ef015d7388))
+    (pin "16" (uuid deb71632-6083-4a9a-aede-fd6129ddb668))
+    (pin "2" (uuid 9bf66c85-9806-46b2-8d85-1ad520743a92))
+    (pin "3" (uuid 9910c560-15b1-47b7-992a-947273389d01))
+    (pin "4" (uuid f083bfa6-0974-463c-981d-cb13970b18dd))
+    (pin "5" (uuid bb8de151-47d9-4307-af5f-56cc261a5a39))
+    (pin "6" (uuid 3be1b5dd-8e88-434c-8d70-793c5b2bef71))
+    (pin "7" (uuid ef9231a5-885e-46fb-a7d2-35a0d8ff8bd1))
+    (pin "8" (uuid cdd378d5-e81c-4deb-bc9a-fc66a1cc0f52))
+    (pin "9" (uuid 888527d9-2886-4164-aee5-a6aedc8582b4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6107,7 +6107,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 144.78 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf9bcf41-59ba-4d45-9792-5ce1902e41f9)
     (property "Reference" "C75" (at 147.32 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6121,8 +6121,8 @@
     (property "Datasheet" "~" (at 144.78 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33e252e1-d280-4479-9f65-d86272097dc4))
-    (pin "2" (uuid 4ed2d29f-9169-4d87-9478-b6d176085ad7))
+    (pin "1" (uuid c49889ad-7305-438f-a7ea-cc5ab92e4e6a))
+    (pin "2" (uuid 40d99e64-77ed-4b8c-9483-8bbed5612c15))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6150,8 +6150,8 @@
     (property "Datasheet" "~" (at 96.52 307.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26e10f43-14f3-4280-8f9e-4bbe77ebd8b2))
-    (pin "2" (uuid 8a6ec8f1-9e54-4b90-9655-44ba7aa2bf32))
+    (pin "1" (uuid 3f0a94be-54ea-4743-8617-b6937034bf82))
+    (pin "2" (uuid a2486c0e-d7ed-43ca-83a8-6a9ae3153c67))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6179,14 +6179,14 @@
     (property "Datasheet" "AMC1306M25DWVR" (at 161.29 175.26 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 99eabe90-6198-42fe-9eca-2b9400a904a8))
-    (pin "2" (uuid a89cc65a-8c5d-422c-8267-4d35eecb23f0))
-    (pin "3" (uuid d6a19666-bd0e-48d8-838f-782fe0f90995))
-    (pin "4" (uuid b65fba5a-dab4-4bab-af09-34385cafc6e3))
-    (pin "5" (uuid 5f78090a-f510-4ae8-86f7-b0a193aea6d8))
-    (pin "6" (uuid e7e90778-a05d-4a7c-9453-cd8b108baf1d))
-    (pin "7" (uuid 7d60c8ed-53f2-43e0-be7a-555d4227d4ce))
-    (pin "8" (uuid 0a0c50eb-5aca-4f96-bc85-8d44aa4481bb))
+    (pin "1" (uuid cd46244a-d94d-4b9c-94fe-06769d595da5))
+    (pin "2" (uuid 490c8330-9111-4fd1-aa9d-db36ccd428d6))
+    (pin "3" (uuid d833bd00-6466-4088-ace8-0a1d105219f9))
+    (pin "4" (uuid 9f3f94f1-64b1-4886-9bb6-690dafc0150c))
+    (pin "5" (uuid f7830fbe-7fce-4836-ba85-215f37a185b4))
+    (pin "6" (uuid 6f1aa54e-6350-43ec-93b2-d86971c4fa2e))
+    (pin "7" (uuid 29851f6e-35ea-4416-a6a0-ad96acc4c6ae))
+    (pin "8" (uuid 304d24b0-e87e-43a4-b0f6-e16863cfaa26))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6200,7 +6200,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 137.16 300.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c332977d-20ad-4e42-9e51-606fdc05c4c1)
     (property "Reference" "C59" (at 139.7 299.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6214,8 +6214,8 @@
     (property "Datasheet" "~" (at 137.16 300.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d7086a5-5539-4621-8ad0-15ee847cb23f))
-    (pin "2" (uuid acca762c-fc9e-46ff-ad2a-d1f759ec90ec))
+    (pin "1" (uuid 68ad33e9-4f3d-4572-ba1d-6c988bb9a76c))
+    (pin "2" (uuid fa7a7841-b812-4143-ad1c-beea8a1bee2c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6243,22 +6243,22 @@
     (property "Datasheet" "2EDF9275FXUMA1" (at 62.23 87.63 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (pin "1" (uuid 950d081a-2874-41e0-8060-9a12725b099e))
-    (pin "10" (uuid 7eb67d5d-1f6a-4cf8-adc0-7c04567c9544))
-    (pin "11" (uuid 2180cceb-c77d-4538-9e2e-deaa098dec66))
-    (pin "12" (uuid d5c2cfed-cfb3-4932-aebc-3b121a597a3b))
-    (pin "13" (uuid 52e83d31-975f-418f-b98b-afb41c013c2d))
-    (pin "14" (uuid dc9841fe-7412-46e8-ba85-733beae9ca50))
-    (pin "15" (uuid be0a640b-84b9-4861-a84c-327125f42629))
-    (pin "16" (uuid 884b539e-cb4f-430a-80b3-895ea0a44adf))
-    (pin "2" (uuid 4d8d928b-3c12-4fca-a804-0ba40fca7ab0))
-    (pin "3" (uuid a0bdc72f-8bba-4084-adae-f09e3541c003))
-    (pin "4" (uuid 3c0c423b-471d-4f70-a751-e30f2a5b1730))
-    (pin "5" (uuid 61607bc9-59eb-413d-ba97-ced05e3a952a))
-    (pin "6" (uuid 6e186bb0-bd60-4d9f-9494-6d26144c019e))
-    (pin "7" (uuid eadc67b3-9b31-4a55-8b68-5b12e1bc7c75))
-    (pin "8" (uuid e54de513-0b8b-496a-97c7-c0735fa015ee))
-    (pin "9" (uuid b2067926-6496-41c8-9845-39d5e8f1d5f7))
+    (pin "1" (uuid 93649758-57c6-4240-86f5-7709ee596538))
+    (pin "10" (uuid ed135e3e-014e-4890-aeb5-208101df133c))
+    (pin "11" (uuid 38fc9ad9-c00a-47d4-b6bb-8885f190025f))
+    (pin "12" (uuid 8af684f4-881c-4d9d-9432-dd2dcacfae39))
+    (pin "13" (uuid 05af148c-a926-4c05-a004-74040ea30f15))
+    (pin "14" (uuid b080d296-9389-4ab4-8937-81ed97204092))
+    (pin "15" (uuid b4fc1c67-a752-4a49-a2ac-1a41df73d14b))
+    (pin "16" (uuid e5f07c0f-011a-4093-8f55-81adaf424efc))
+    (pin "2" (uuid e8f13724-5bad-4a8b-a8a5-07030607d7be))
+    (pin "3" (uuid ed1270f0-e606-4b91-8fed-47f3014a9149))
+    (pin "4" (uuid ec7ac9fe-9e42-4eca-9387-3ed3f0727919))
+    (pin "5" (uuid 9fdcd917-f126-4b43-8aa3-2d460e5a4784))
+    (pin "6" (uuid 36b82478-5241-44bf-8a71-53b8c9d5f2eb))
+    (pin "7" (uuid b27242f2-747a-404c-aba9-855ff18aa7bf))
+    (pin "8" (uuid 5b4e8259-a1e6-42b9-9ba6-8ec2728495f4))
+    (pin "9" (uuid 1e833353-7638-4e3c-aa10-a8582ce60060))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6286,10 +6286,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 488.95 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 461ae42e-faed-433f-93eb-e156f4e41f1b))
-    (pin "2" (uuid b525bae6-7862-4431-835a-d24393e274a6))
-    (pin "3" (uuid 6aa5f8ac-2734-4797-8131-40c168eb0b6e))
-    (pin "4" (uuid cb068e36-67ad-43be-9d3d-6c44728953ba))
+    (pin "1" (uuid 19fcd738-d6eb-4906-bf6a-3d95d85a061e))
+    (pin "2" (uuid 27431ac6-42a8-4ceb-9994-afd37c2b3cf1))
+    (pin "3" (uuid 3072ac15-ddfd-41d6-a993-95db6adcdad4))
+    (pin "4" (uuid f32f8306-be1b-44f6-8a16-92f2ca7d3d1f))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6317,8 +6317,8 @@
     (property "Datasheet" "~" (at 322.58 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc26b95a-1bb3-4987-8356-5d4f34c0cdd7))
-    (pin "2" (uuid 1a919fcc-b238-49bb-8a65-e8ea2a1a982e))
+    (pin "1" (uuid 745ea990-4ed1-44d0-8c46-bb8c348d6020))
+    (pin "2" (uuid 1478004e-a6fa-4142-bb94-fbe1bcc72032))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6332,7 +6332,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 417.83 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb4ddaf5-80ed-40da-b45e-7174a4561da3)
     (property "Reference" "C79" (at 420.37 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6346,8 +6346,8 @@
     (property "Datasheet" "~" (at 417.83 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b0db8d5-0862-4ce9-b33a-0e43fc2594f6))
-    (pin "2" (uuid 46b6ed22-485c-4aff-bc39-87b661801de8))
+    (pin "1" (uuid bca9d46e-b02a-4704-9cc7-226bc47e37b2))
+    (pin "2" (uuid 042b88f6-852f-4a88-9a8d-e5a9fe1a3fff))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6375,8 +6375,8 @@
     (property "Datasheet" "~" (at 171.45 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5548ada0-6537-4fb5-84fd-d9822d7cbecb))
-    (pin "2" (uuid 99769743-4eaf-4533-bff4-10f909e903de))
+    (pin "1" (uuid 42a8a30f-fe18-4c5d-8ac6-1e21a40b3298))
+    (pin "2" (uuid d1b058c6-8391-4641-bb08-977fd9c7e25c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6404,7 +6404,7 @@
     (property "Datasheet" "" (at 107.95 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1cfd85a-c196-4638-9c6b-13a52fa49d5c))
+    (pin "1" (uuid f8f71cb9-d58e-4de8-9b3f-fc16ef522c03))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6432,10 +6432,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 208.28 293.37 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 34e13cb2-e0cf-45c7-804f-146a1525750e))
-    (pin "2" (uuid a1e3780b-9030-47ca-8ca3-5ff814b15a6b))
-    (pin "3" (uuid 4a9d9f12-7b41-4583-828e-e11aaf20ace5))
-    (pin "4" (uuid 82cff87e-b996-4814-be12-ca868accfafc))
+    (pin "1" (uuid afed4077-1ddd-4614-ae21-4541941ee70a))
+    (pin "2" (uuid 0ae73f0c-763f-43ed-b61b-76e31eaa7f8d))
+    (pin "3" (uuid 6e224720-7c9e-4d3f-bb0b-3a3fd634ccd6))
+    (pin "4" (uuid 718186d5-2e7c-49f2-8b6a-91675e3f4fd4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6463,7 +6463,7 @@
     (property "Datasheet" "" (at 81.28 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba4fa151-8427-482d-929e-b260adcb6400))
+    (pin "1" (uuid e34c4765-1a3c-4ab8-86b2-6008422cef47))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6477,7 +6477,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 127 270.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d001f320-7cb5-49f9-9632-f326910afd81)
     (property "Reference" "C52" (at 129.54 269.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6491,8 +6491,8 @@
     (property "Datasheet" "~" (at 127 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9850b258-b8b2-42da-9312-a82653bff060))
-    (pin "2" (uuid 373e5b99-68ac-499a-bcf7-406943486f92))
+    (pin "1" (uuid 960d48c0-505d-45d1-938d-2a17cdb47923))
+    (pin "2" (uuid 7e418b58-cf3d-44cc-8680-34b45109ac6c))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6520,7 +6520,7 @@
     (property "Datasheet" "" (at 491.49 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba8863b9-d176-4c6d-a7b7-0d0d64a2b4d9))
+    (pin "1" (uuid 914e280b-2fc3-4e56-be0d-e5841ac60b14))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6548,7 +6548,7 @@
     (property "Datasheet" "" (at 31.75 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7cb35fc2-1412-463d-a84c-bcd48930e3d9))
+    (pin "1" (uuid 02149560-a6da-4c51-ae19-d03f0dd3dbbf))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6576,7 +6576,7 @@
     (property "Datasheet" "" (at 491.49 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39a4a721-0a59-401c-b983-d55557398d44))
+    (pin "1" (uuid a999de9f-8bc2-46bd-8a6f-5386a32a3f54))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6604,7 +6604,7 @@
     (property "Datasheet" "" (at 341.63 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df69ec3c-e846-4783-931c-145240098ea9))
+    (pin "1" (uuid ae81bce8-c9ab-4e1e-a4a7-8f3a55bc84c9))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6632,8 +6632,8 @@
     (property "Datasheet" "~" (at 260.35 336.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbcbc166-404c-4352-bc9c-f9ef90275e2a))
-    (pin "2" (uuid 67c570ab-69a1-40d3-a4e7-45a8b5ac9d88))
+    (pin "1" (uuid 39b9b1d5-0284-49da-893b-a5d0c4c87869))
+    (pin "2" (uuid f76e8b50-5a5f-4246-97b6-2196b1f77493))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6647,7 +6647,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 124.46 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbd493d1-2d6b-4c88-88b9-15e7a6ed99fa)
     (property "Reference" "C10" (at 127 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6661,8 +6661,8 @@
     (property "Datasheet" "~" (at 124.46 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 916a6db2-4845-416b-a8c2-0d2c6a2073b6))
-    (pin "2" (uuid 9ceede47-b5dd-4f47-bda5-5846ba3faf12))
+    (pin "1" (uuid ce6a24c1-cc8a-435d-bec1-dde629fd9f34))
+    (pin "2" (uuid 11f1bed0-48f2-449a-bb4a-9b917d6cb3b2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6690,7 +6690,7 @@
     (property "Datasheet" "~" (at 350.52 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ca7cb3c-e6b6-4698-b870-f1a4611aa6c7))
+    (pin "1" (uuid 53b2fcb4-9a4e-41a9-bbea-858f5780a322))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6718,8 +6718,8 @@
     (property "Datasheet" "~" (at 452.12 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c54d3cb-2181-4a27-b04f-dceb80a9775b))
-    (pin "2" (uuid f331e6ac-932e-4acf-ae5d-1aaa9d5c4f01))
+    (pin "1" (uuid fb2e54b8-ecea-4420-a568-718016297b17))
+    (pin "2" (uuid 671a2b1e-85b4-486a-a491-3892443491c4))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6747,7 +6747,7 @@
     (property "Datasheet" "" (at 81.28 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 850ec66f-41da-4ed1-bfec-1d44af1b3e16))
+    (pin "1" (uuid 4a8d135e-f3c9-498c-9406-4177025945f2))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6761,7 +6761,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 60.96 254 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5756d5e-2804-40c0-bfa8-86e370b1ed21)
     (property "Reference" "C46" (at 63.5 252.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6775,8 +6775,8 @@
     (property "Datasheet" "~" (at 60.96 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f9151b7-e7ea-4d00-82cd-cdfc18076c05))
-    (pin "2" (uuid 448dbcbc-8a0d-4606-b1bd-55b33c3a6dde))
+    (pin "1" (uuid b7ec9edc-863e-4689-b0f8-dc771866d670))
+    (pin "2" (uuid 21e39b0e-8eca-4111-a4c7-f82bd502daa9))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6804,10 +6804,10 @@
     (property "Datasheet" "https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf" (at 205.74 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 71eb8276-720b-45ef-adbd-1991074a081b))
-    (pin "2" (uuid a7aaf742-ad2b-4a21-b7e3-e843a718984f))
-    (pin "3" (uuid 06797556-70ed-4722-b487-cf39ce449da7))
-    (pin "4" (uuid 9a9c316d-304a-4fae-987e-8f057d3da813))
+    (pin "1" (uuid cd02feb9-f13e-4f9f-a6db-740813878f73))
+    (pin "2" (uuid 9d40146e-4ff4-4079-b3c0-d86d8f7ed963))
+    (pin "3" (uuid 1bf011df-ba7a-4c41-a976-086f6c6526d5))
+    (pin "4" (uuid 8d4981d4-bef2-421a-b15c-bd23896e575f))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6835,7 +6835,7 @@
     (property "Datasheet" "" (at 341.63 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fce4202-39a4-4b05-9e16-46c6d599981e))
+    (pin "1" (uuid 4e3ed709-01fe-4a6a-a88b-7769c198db09))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6863,7 +6863,7 @@
     (property "Datasheet" "" (at 58.42 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 19c6d497-708a-4ceb-b365-a7a5154866e9))
+    (pin "1" (uuid 745ec226-28df-420d-8cd8-bc03527f75d0))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6891,8 +6891,8 @@
     (property "Datasheet" "~" (at 96.52 316.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d82b44bd-16cd-4744-858b-6db5c26313a2))
-    (pin "2" (uuid d8778a93-c56f-4ae4-a05e-c6e4ec4ee8ba))
+    (pin "1" (uuid ca420be0-f315-43bf-91e1-462478f247dc))
+    (pin "2" (uuid 38ab9b14-2e33-4364-986d-c3d280a993e5))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6920,7 +6920,7 @@
     (property "Datasheet" "~" (at 43.18 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75e987b8-0834-47de-8611-4e5a28dc7038))
+    (pin "1" (uuid 98360174-4fd4-48e6-8556-147c958d06bb))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6954,8 +6954,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 97.79 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf5eaa4a-3e87-4bb2-bdbf-72433ced0e52))
-    (pin "2" (uuid 0e8223a8-987e-42dd-a267-ed6f39ca7ac1))
+    (pin "1" (uuid 907b3291-8d6b-404d-a45e-1434fd6ca7b2))
+    (pin "2" (uuid 04539296-587d-43b9-883b-0ec8875e864d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -6969,7 +6969,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 134.62 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f60873d7-b4a4-4be2-93ee-2cefd7f3b95e)
     (property "Reference" "C62" (at 137.16 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6983,8 +6983,8 @@
     (property "Datasheet" "~" (at 134.62 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4379114-a97c-4002-9159-40f7fc7fff25))
-    (pin "2" (uuid 709348ba-a0a2-4cea-9377-72da2191d26c))
+    (pin "1" (uuid ab60dce8-2ad2-4212-ba67-5f47412fea43))
+    (pin "2" (uuid 5c35e196-0854-414a-8d8f-a39cde979d4d))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -7012,7 +7012,7 @@
     (property "Datasheet" "" (at 58.42 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95a8f17b-0d7c-4c62-b6df-aec3603c60f4))
+    (pin "1" (uuid f2a4d440-0a91-4dc6-9397-bffb22dc6fd8))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -7026,7 +7026,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 438.15 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9224946-0028-4e0b-9cdf-c860dccfd6ae)
     (property "Reference" "R57" (at 440.69 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7040,8 +7040,8 @@
     (property "Datasheet" "~" (at 438.15 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 99cd9371-aae4-4fe8-a954-41ec22cccc80))
-    (pin "2" (uuid 670e4d20-4755-4a42-be78-ae4658776beb))
+    (pin "1" (uuid ac58023e-1287-4c20-ab6b-e085359cbedc))
+    (pin "2" (uuid 5f7a8cc7-6e78-4483-b98c-1b82a72d62b7))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -7069,8 +7069,8 @@
     (property "Datasheet" "~" (at 541.02 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a16c9cb-3494-455e-a0e6-f10cea9859a8))
-    (pin "2" (uuid b8a81786-d17d-4025-87f0-328bc6d6dd0f))
+    (pin "1" (uuid a1702518-002e-4780-b76c-393b01b15ba4))
+    (pin "2" (uuid 99c52e0c-226d-474a-af84-05a76a917b97))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -7098,8 +7098,8 @@
     (property "Datasheet" "~" (at 123.19 346.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d085862c-f7ca-4f92-89c7-9b5542de21ec))
-    (pin "2" (uuid ed6de8fe-621d-4132-b266-969465430ee9))
+    (pin "1" (uuid 3c807e81-d300-4acb-8ce3-8cde64a8f218))
+    (pin "2" (uuid ce1907ed-07ad-4de3-8866-070b00b09fd9))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
@@ -7133,8 +7133,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 149.86 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 817fabf7-190c-4491-a2fe-ea250b0fe780))
-    (pin "2" (uuid e528ce2b-22ac-4d79-b0d6-dc7dc7211589))
+    (pin "1" (uuid cbc5f31b-9cbb-40b3-ba22-5b432e8c245a))
+    (pin "2" (uuid f353f99a-42df-460a-bca5-7c2623b6633b))
     (instances
       (project "HV servo drive v1"
         (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
