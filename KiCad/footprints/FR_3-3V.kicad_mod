@@ -1,0 +1,157 @@
+(footprint "FR_3-3V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "X1"
+		(at 0 -4.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81a3e87f-526e-483f-b529-2dc59a002e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FRETHE025"
+		(at 0 -8.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54259837-122a-42cd-957a-bb15bab9aa4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprints:FR_3-3V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01965df4-530f-48f0-8609-267df1f742ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/FR_3-3V.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b9d2b1b-8b64-48d9-a356-4f4e6de46117")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage Controlled Crystal Oscillator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbc99dac-ec5b-4535-9071-62a858fbd182")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.6 -3.3)
+		(end 3.6 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "08805e3a-7094-434d-b258-d814928fc3fc")
+	)
+	(fp_circle
+		(center -4.2 3)
+		(end -3.9 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e7eea30f-2377-4533-baa1-6ac84c9330e9")
+	)
+	(fp_rect
+		(start -3.6 -3.3)
+		(end 3.6 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8738a188-c680-460e-883a-feb93e99ff22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf703acb-c370-4604-9641-a9a02eec2ca3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a4acb9d4-6006-443f-beeb-7d520220d7c1")
+	)
+	(pad "2" smd rect
+		(at 0 2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2b9c6313-eed6-490e-b56a-727db00020ec")
+	)
+	(pad "3" smd rect
+		(at 2.54 2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "95f5d242-e502-4bcb-855b-36365c7d86bc")
+	)
+	(pad "4" smd rect
+		(at 2.5 -2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "faf367ff-a474-4e13-995a-69603cb45944")
+	)
+	(pad "5" smd rect
+		(at -0.04 -2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "28053d3e-c4d4-4746-a566-d6b8699e14ce")
+	)
+	(pad "6" smd rect
+		(at -2.58 -2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "accbdbc6-0e88-443d-8a43-856c7c7b93d7")
+	)
+)

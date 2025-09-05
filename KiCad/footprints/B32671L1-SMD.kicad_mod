@@ -1,0 +1,225 @@
+(footprint "B32671L1-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
+	(tags "C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor")
+	(property "Reference" "REF**"
+		(at 1.25 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "2be9ec87-97c3-483d-bc62-9e3675357a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B32671L1-SMD"
+		(at 1.25 2.25 0)
+		(layer "F.Fab")
+		(uuid "62c373bb-9064-4a50-a6ce-88dac23d1170")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd37a91c-7e51-40f2-a6b9-11886b3750b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54531a08-e3e6-47a1-ab2e-1f89d0cddb27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93f21ce4-2551-4a77-a6bd-0850ba8d58aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.17 -1.12)
+		(end -1.17 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3c9c7de-e37d-42df-8bdd-7493776c472f")
+	)
+	(fp_line
+		(start -1.17 -1.12)
+		(end 3.67 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6313864-4a02-4ac4-b99e-02b67ccd7db7")
+	)
+	(fp_line
+		(start -1.17 1.12)
+		(end 3.67 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06a7272e-c092-4a7f-bfc4-bdc30f417b2e")
+	)
+	(fp_line
+		(start 3.67 -1.12)
+		(end 3.67 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0af9a90-fb40-4865-8244-3384aa186f7f")
+	)
+	(fp_line
+		(start -1.3 -1.25)
+		(end -1.3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18e99d0c-4a00-448a-89f5-a76876de50b2")
+	)
+	(fp_line
+		(start -1.3 1.25)
+		(end 3.8 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c439b02-4b70-4c46-a177-ec10548f2708")
+	)
+	(fp_line
+		(start 3.8 -1.25)
+		(end -1.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a78fe014-e9b2-4841-ad29-256c7384eb59")
+	)
+	(fp_line
+		(start 3.8 1.25)
+		(end 3.8 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f69ffec-092f-4cb4-a2dc-41e66402b201")
+	)
+	(fp_line
+		(start -1.05 -1)
+		(end -1.05 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f922f92-bdd3-4ab6-a4b8-91ab0c3e8e5a")
+	)
+	(fp_line
+		(start -1.05 1)
+		(end 3.55 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1244a114-5ce0-4be6-8dd1-5e8a68bd653d")
+	)
+	(fp_line
+		(start 3.55 -1)
+		(end -1.05 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74951181-a10f-4b81-b8ed-fbb41b0539b2")
+	)
+	(fp_line
+		(start 3.55 1)
+		(end 3.55 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f0a81f6-f83b-4ff3-8df8-ced4842e5821")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 0)
+		(layer "F.Fab")
+		(uuid "78062baf-758a-4f7f-9e4e-bd8cfa4d9169")
+		(effects
+			(font
+				(size 0.92 0.92)
+				(thickness 0.138)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79dbbab7-21bd-4a37-b7c3-2ecb69fb8891")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea77858d-a2c5-48c1-9a7a-284e98918625")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

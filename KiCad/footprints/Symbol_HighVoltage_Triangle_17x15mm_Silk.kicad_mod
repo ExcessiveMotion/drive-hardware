@@ -1,0 +1,143 @@
+(footprint "Symbol_HighVoltage_Triangle_17x15mm_Silk"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "High voltage symbol, in triangle, 17x15mm, copper layer")
+	(tags "warning graphic")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b6c0073-129a-4279-bf72-05c6f1f24297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol_HighVoltage_Triangle_17x15mm_Silk"
+		(at -1.27 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e41fb5b-e49c-4e3d-8751-a96fb75aaaee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "footprints:Symbol_HighVoltage_Triangle_17x15mm_Silk"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cedd2f5c-ebae-46d4-86b1-d8e455505334")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e678d2e8-4a66-4433-b2fd-8024d4c12c3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2afd7e8c-8713-4a03-9595-fa4583512622")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -8 6.93)
+		(end 0 -6.93)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8f67dea-3419-4b2e-8e62-0c380674c88a")
+	)
+	(fp_line
+		(start -7.126839 6.694632)
+		(end -7.393161 6.285368)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f9fe60c-8c45-4a5c-9e45-7c521cce338a")
+	)
+	(fp_line
+		(start -0.26 -6.06)
+		(end 0.26 -6.06)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eba1cb88-114d-49ab-9bf4-113e92785570")
+	)
+	(fp_line
+		(start 7.106839 6.674632)
+		(end 7.373158 6.265366)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbec823c-dd7e-4567-9e48-0b08bf30c155")
+	)
+	(fp_line
+		(start 8 6.93)
+		(end -8 6.93)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed7ad164-373b-4610-abf3-5506b2a9e190")
+	)
+	(fp_line
+		(start 8 6.93)
+		(end -0.000105 -6.929939)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edd92839-9d22-4ad1-96d3-70df6ff215a1")
+	)
+	(fp_poly
+		(pts
+			(xy -1 0.6) (xy 1.54 -0.76525) (xy 0.11125 4.441749) (xy 0.8415 3.99725) (xy -0.460251 5.933999)
+			(xy -0.9365 3.648) (xy -0.4285 4.3465) (xy 0.17475 0.568249) (xy -2.27 1.87) (xy -0.682501 -3.74975)
+			(xy 0.873249 -3.74975)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7b739973-a99a-414c-a07b-b9beef91efec")
+	)
+)

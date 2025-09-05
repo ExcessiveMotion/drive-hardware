@@ -7,4 +7,5 @@
   (lib (name "B0505MT")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/drive-hardware-dev/KiCad/symbols/B0505MT.kicad_sym")(options "")(descr ""))
   (lib (name "PL133")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/drive-hardware-dev/KiCad/symbols/PL133.kicad_sym")(options "")(descr ""))
   (lib (name "PCH FET")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/drive-hardware-dev/KiCad/symbols/PCH FET.kicad_sym")(options "")(descr ""))
+  (lib (name "FR_3-3V")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/drive-hardware-dev/KiCad/symbols/FR_3-3V.kicad_sym")(options "")(descr ""))
 )

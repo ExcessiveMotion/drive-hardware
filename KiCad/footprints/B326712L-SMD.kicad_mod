@@ -1,0 +1,129 @@
+(footprint "B326712L-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
+	(tags "C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor")
+	(property "Reference" "REF**"
+		(at 0 -11.4 0)
+		(layer "F.SilkS")
+		(uuid "2be9ec87-97c3-483d-bc62-9e3675357a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B326712L-SMD"
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(uuid "62c373bb-9064-4a50-a6ce-88dac23d1170")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd37a91c-7e51-40f2-a6b9-11886b3750b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54531a08-e3e6-47a1-ab2e-1f89d0cddb27")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93f21ce4-2551-4a77-a6bd-0850ba8d58aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.1 -7.4)
+		(end 9.1 7.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "66621a53-451d-4d17-b155-c154d5258271")
+	)
+	(fp_rect
+		(start -9 -7.25)
+		(end 9 7.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "97c01129-bca4-4f37-a537-1a397b807758")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.2 -9.7 0)
+		(layer "F.Fab")
+		(uuid "78062baf-758a-4f7f-9e4e-bd8cfa4d9169")
+		(effects
+			(font
+				(size 0.92 0.92)
+				(thickness 0.138)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.5 -6.2)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cc96a61d-0f08-4668-9d7d-94f2654daee4")
+	)
+	(pad "2" thru_hole circle
+		(at -7.5 -6.2)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f64cf170-2a22-4ac3-944c-df759435a26b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

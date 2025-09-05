@@ -1,170 +1,364 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 00e1489f-e855-42b2-9b8a-dcc958a4feb6)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 30.48 48.26) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0994202a-da31-4ff2-a1b0-77c92fee171e)
-    (property "Sheetname" "MCU" (at 30.48 47.5484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 30.48 52.6546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 105.41) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 259c1026-fe6d-43e7-bb0b-0fa333ad9045)
-    (property "Sheetname" "Gate Supplies" (at 30.48 104.6984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "gate supplies.kicad_sch" (at 30.48 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 128.27) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2852c9f9-8bc9-4870-b49f-dc85f06c165d)
-    (property "Sheetname" "Power Connectors" (at 30.48 127.5584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power connectors.kicad_sch" (at 30.48 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 116.84) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 350b799a-1897-4e91-b3ab-5fc22b52db7c)
-    (property "Sheetname" "User IO" (at 30.48 116.1284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "user io.kicad_sch" (at 30.48 121.2346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 139.7) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5630d7aa-18e9-4c19-993b-fb61da4e222f)
-    (property "Sheetname" "Mounting" (at 30.48 138.9884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mounting.kicad_sch" (at 30.48 144.0946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 71.12) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5ac84363-ab69-4569-a1a9-ce084738114b)
-    (property "Sheetname" "STO" (at 30.48 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "sto.kicad_sch" (at 30.48 75.5146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 59.69) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9524a05b-e576-4e62-b0e5-c418214a1de1)
-    (property "Sheetname" "Controller Interface" (at 30.48 58.9784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "controller interface.kicad_sch" (at 30.48 64.0846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 82.55) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b4bade25-f251-493e-881f-c7d34096bfbd)
-    (property "Sheetname" "Phase Bridges" (at 30.48 81.8384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "phase bridges.kicad_sch" (at 30.48 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 30.48 93.98) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d112511a-b5ba-4c1b-9115-b44aced07b40)
-    (property "Sheetname" "ADC Sense" (at 30.48 93.2684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "adc sense.kicad_sch" (at 30.48 98.3746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Field2" "" (at 30.48 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "HV servo drive v1"
-        (path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6" (page "6"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "00e1489f-e855-42b2-9b8a-dcc958a4feb6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 30.48 48.26)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0994202a-da31-4ff2-a1b0-77c92fee171e")
+		(property "Sheetname" "MCU"
+			(at 30.48 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 30.48 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 105.41)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "259c1026-fe6d-43e7-bb0b-0fa333ad9045")
+		(property "Sheetname" "Gate Supplies"
+			(at 30.48 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate supplies.kicad_sch"
+			(at 30.48 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 128.27)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2852c9f9-8bc9-4870-b49f-dc85f06c165d")
+		(property "Sheetname" "Power Connectors and Filtering"
+			(at 30.48 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power connectors.kicad_sch"
+			(at 30.48 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 116.84)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "350b799a-1897-4e91-b3ab-5fc22b52db7c")
+		(property "Sheetname" "User IO"
+			(at 30.48 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user io.kicad_sch"
+			(at 30.48 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 139.7)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5630d7aa-18e9-4c19-993b-fb61da4e222f")
+		(property "Sheetname" "Mounting"
+			(at 30.48 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mounting.kicad_sch"
+			(at 30.48 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 71.12)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ac84363-ab69-4569-a1a9-ce084738114b")
+		(property "Sheetname" "STO"
+			(at 30.48 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sto.kicad_sch"
+			(at 30.48 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 59.69)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9524a05b-e576-4e62-b0e5-c418214a1de1")
+		(property "Sheetname" "Controller Interface"
+			(at 30.48 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller interface.kicad_sch"
+			(at 30.48 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 82.55)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4bade25-f251-493e-881f-c7d34096bfbd")
+		(property "Sheetname" "Phase Bridges"
+			(at 30.48 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase bridges.kicad_sch"
+			(at 30.48 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 93.98)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d112511a-b5ba-4c1b-9115-b44aced07b40")
+		(property "Sheetname" "ADC Sense"
+			(at 30.48 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc sense.kicad_sch"
+			(at 30.48 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 30.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HV servo drive v1"
+				(path "/00e1489f-e855-42b2-9b8a-dcc958a4feb6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

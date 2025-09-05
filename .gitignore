@@ -1,5 +1,8 @@
 
 KiCad/HV servo drive v1/fp-info-cache
 KiCad/HV servo drive v1/fp-lib-table
+*.lck
+KiCad/HV servo drive v1/HV servo drive v1-backups
 KiCad/HV servo drive v1/fp-info-cache
-KiCad/HV servo drive v1/fp-info-cache
+/KiCad/HV servo drive v1/HV servo drive v1-backups
+/manufacturing/HV servo drive v1
